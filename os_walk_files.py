@@ -47,7 +47,7 @@ def get_code():
             ext =  extensions.get(controller, controller)
             print(f"Collected  {name} {controller}")
             # run node read_files.js
-            # os.system(f"node ~/Documents/Repositories/alecscriptsCodeExamples/read_files.js {path} {name} {controller} {ext}")
+            os.system(f"node ~/Documents/Repositories/alecscriptsCodeExamples/read_files.js {path} {name} {controller} {ext}")
 
     def push_to_git():
         os.chdir("/Users/111244rfsf/Documents/Repositories/alecscriptsCodeExamples")
@@ -56,6 +56,7 @@ def get_code():
         print("git push")
         os.system("git add *")
         os.system(f"git commit -m 'Updating examples...{datetime.now().strftime('%c')}'")
+        os.system("git push")
 
     
     push_to_git()
