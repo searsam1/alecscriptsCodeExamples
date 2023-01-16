@@ -51,7 +51,7 @@ def get_code():
 
     def push_to_git():
         os.chdir("/Users/111244rfsf/Documents/Repositories/alecscriptsCodeExamples")
-        os.system("cp -r /Users/111244rfsf/Desktop/AScode/Examples")
+        os.system("cp -R /Users/111244rfsf/Desktop/AScode/Examples")
 
         print("git push")
         os.system("git add *")
