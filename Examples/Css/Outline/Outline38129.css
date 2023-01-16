@@ -1,0 +1,12 @@
+p {
+    /* color | style | width */
+    outline: red dotted 1px;
+    }
+/*
+style
+    dotted | dashed | solid 
+    double | groove | ridge 
+    inset  | outset | none 
+    hidden     
+*/
+

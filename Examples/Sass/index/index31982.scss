@@ -1,0 +1,9 @@
+
+$x: 1;
+@@while $x < 13 {    
+    .text-#{$x} { font-size: #{12 * $x}px;}
+    $x: $x + 1; 
+    /// increment x by 1 
+    /// to avoid infinite loop
+}
+

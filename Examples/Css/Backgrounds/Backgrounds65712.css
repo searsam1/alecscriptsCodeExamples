@@ -1,0 +1,9 @@
+
+    p {background: 
+        linear-gradient(
+            45deg, 
+            rgb(255,0,0, .1) 0% 10%, 
+            ...
+            rgb(255,0,0, 1) 90% 100%
+        )}
+

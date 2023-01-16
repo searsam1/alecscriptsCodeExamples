@@ -1,0 +1,16 @@
+
+$color: red; // Global
+$background-color: black;
+
+@@if $color {
+    // Assign Global $background-color to white
+    $background-color: white; 
+}
+.example {
+    background-color: $background-color
+    // Will use global value (white)
+}
+// .example {
+//     background-color: white;
+//   }
+
