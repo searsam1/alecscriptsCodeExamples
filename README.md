@@ -1,3 +1,14 @@
+**!!!MUST HAVE [alecscripts](https://github.com/searsam1/alecscripts) REPO!!!**
+## alecscriptsCodeExamples
+###  ❂ Storage For *alecscripts* coding Examples
+<hr/>
 
-- [`os_walk_files.py`](https://github.com/searsam1/alecscriptsCodeExamples/blob/main/os_walk_files.py)
-- [`read_files.js`](https://github.com/searsam1/alecscriptsCodeExamples/blob/main/read_files.js)
+#### How to use: 
+```
+git clone https://github.com/searsam1/alecscripts
+git clone https://github.com/searsam1/alecscriptsCodeExamples
+
+cd alecscriptsCodeExamples
+python3 os_walk_files.py
+```
+
