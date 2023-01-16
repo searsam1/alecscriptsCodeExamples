@@ -1,0 +1,5 @@
+$color: red; // Global
+.element {
+  $local-color: $color; // Copy Global to new local
+  color: $local-color;
+}

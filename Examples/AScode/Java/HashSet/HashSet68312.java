@@ -1,0 +1,2 @@
+drinks.contains("Milk") // -> True;
+

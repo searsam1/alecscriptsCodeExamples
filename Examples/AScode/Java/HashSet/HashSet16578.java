@@ -1,0 +1,2 @@
+drinks.remove("Milk")
+

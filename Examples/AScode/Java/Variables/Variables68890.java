@@ -1,0 +1,1 @@
+type variableName = value;

@@ -1,0 +1,17 @@
+
+@@mixin bold($isBold){
+    @@if $isBold == true {
+        color: black;
+    }
+    @@else if $isBold == false {
+        color: grey;
+    }
+    @@else {
+        color: none;
+    }
+}
+
+p {
+    @@include bold(true);
+}
+

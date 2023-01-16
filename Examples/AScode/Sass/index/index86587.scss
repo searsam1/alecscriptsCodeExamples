@@ -1,0 +1,12 @@
+
+.box{
+  background-color: red;
+  height: 70px;
+  border: 2px solid green;
+}
+.square{
+    @@extend .box;
+    width: 70px;
+}
+
+

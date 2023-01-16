@@ -1,0 +1,12 @@
+p {
+    background-color: red; /* <-- using name */
+}
+
+p {
+    background-color: rgb(255, 0, 0); /* <-- using rgb */
+}
+
+p {
+    background-color: #ff0000; /* <-- using hex value */
+}
+

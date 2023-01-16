@@ -1,0 +1,3 @@
+
+"${filename##*.}"
+# Get file extension 

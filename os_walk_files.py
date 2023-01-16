@@ -51,11 +51,12 @@ def get_code():
 
     def push_to_git():
         os.chdir("/Users/111244rfsf/Documents/Repositories/alecscriptsCodeExamples")
-        os.system("cp -R /Users/111244rfsf/Desktop/AScode/Examples Examples")
+        os.system("cp -R /Users/111244rfsf/Desktop/AScode Examples")
 
         print("git push")
+        commit_message = f"'Updating examples on {datetime.now().strftime('%c')}'"
         os.system("git add *")
-        os.system(f"git commit -m 'Updating examples...{datetime.now().strftime('%c')}'")
+        os.system(f"git commit -m {commit_message}")
         os.system("git push")
 
     

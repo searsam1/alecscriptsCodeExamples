@@ -1,0 +1,1 @@
+replace(strOrPattern, repl)

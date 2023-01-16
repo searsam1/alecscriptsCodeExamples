@@ -1,0 +1,6 @@
+
+"iPhone"
+"macOS"
+"alecScripts"
+"thisIsCamelCase"
+    

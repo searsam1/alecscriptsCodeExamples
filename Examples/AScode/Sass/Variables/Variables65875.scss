@@ -1,0 +1,5 @@
+// style.scss
+@@use 'library' with (
+  // Change Default Value before using in module
+  $red: rgb(240, 11, 107), 
+);

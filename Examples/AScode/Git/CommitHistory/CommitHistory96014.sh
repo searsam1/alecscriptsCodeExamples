@@ -1,0 +1,6 @@
+0745d369ae306d0ecdf4ec4fbd7a710ca271baa4 (HEAD -> main, origin/main, origin/HEAD) add tests
+830c0bd509dbc6c5abadcc73e1d00973dba6eefe added formula
+837600c117457ce95b5279bba4ed12c48146a39f Edit prod
+df73db7fbe1f8c1311a80c8232aa8fc4b2b0ad84 Create factorial.py
+721e007eb6b3ca796db958ed2b6428763fb49d7d Detail README
+0f270ccfefa0495a7dd529f70134efd8079afe51 Initial commit

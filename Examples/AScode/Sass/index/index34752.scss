@@ -1,0 +1,13 @@
+/// map
+$colors: (color1: blue, color2: black, color3: red);
+
+@@each $key, $color in $colors {
+  .#{$color}-bg {background-color: $color;}
+}
+/// $key is required to get $color 
+
+/// list
+@@each $color in blue, red, green {
+  .#{$color}-text {color: $color;}
+}
+

@@ -1,0 +1,18 @@
+
+/* normal link color */ 
+a.link:link{
+    color: black;
+}
+/* user has clicked link before */ 
+a.link:visited{
+    color: purple;
+}
+/* hover over a link */ 
+a.link:hover{
+    color: red;
+}
+/* link is clicked */ 
+a.link:active{
+    color: black;
+}
+
